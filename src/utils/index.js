@@ -15,8 +15,9 @@ class Movie {
     this.isGood = inputIsGood;
   }
   add() {
-    movieArray.push(this);
-    console.log(movieArray);
+    // movieArray.push(this);
+    // console.log(movieArray);
+    return this;
   }
 }
 
